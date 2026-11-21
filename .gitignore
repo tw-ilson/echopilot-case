@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+ref/
+render.jpg
+*.log
+print/*
+!print/echopilot_case_v7_bottom.stl
+!print/echopilot_case_v7_bottom.step
+!print/echopilot_case_v6_top.stl
+!print/echopilot_case_v6_top.step
