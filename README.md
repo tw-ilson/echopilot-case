@@ -16,6 +16,8 @@ for Zoo Design Studio. Current version: **v7**, printed and test-fitted.
   Earlier generators (`gen_kcl.py` = v4, `_v5`, `_v6`) and their output in `cad/` are kept for reference.
 - `tools/bbox.py`: dumps per-part bounding boxes from a STEP assembly to JSON (cadquery-ocp).
   The generator reads `ref/stack_bb.json`.
+- `tools/render_readme.py`: Blender (Cycles) render of the v7 STLs for `docs/render.png`:
+  `blender -b -P tools/render_readme.py -- <bottom.stl> <top.stl> docs/render.png`.
 - `tools/plate.py`: slices both halves with the OrcaSlicer CLI using Bambu A1 presets fetched
   through an OrcaSlicer MCP server (`tools/mcp_call.py`). Optional; paths are local to my setup.
 
