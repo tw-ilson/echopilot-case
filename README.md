@@ -1,4 +1,4 @@
-# EchoPilot AI full-stack case
+# EchoPilot AI 3D-Printable Enclosure
 
 ![exploded view](docs/render.png)
 
