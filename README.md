@@ -1,6 +1,6 @@
 # EchoPilot AI 3D-Printable Enclosure
 
-![exploded view](docs/render.png)
+![exploded view](docs/render_v7.png)
 
 Two-part snap-fit case for the [EchoMAV EchoPilot AI](https://echomav.github.io/docs/latest/) +
 Carrier stack with a Jetson Orin NX module. The geometry is generated from connector positions
@@ -16,8 +16,8 @@ for Zoo Design Studio. Current version: **v7**, printed and test-fitted.
   Earlier generators (`gen_kcl.py` = v4, `_v5`, `_v6`) and their output in `cad/` are kept for reference.
 - `tools/bbox.py`: dumps per-part bounding boxes from a STEP assembly to JSON (cadquery-ocp).
   The generator reads `ref/stack_bb.json`.
-- `tools/render_readme.py`: Blender (Cycles) render of the v7 STLs for `docs/render.png`:
-  `blender -b -P tools/render_readme.py -- <bottom.stl> <top.stl> docs/render.png`.
+- `tools/render_readme.py`: Blender (Cycles) render of the v7 STLs for `docs/render_v7.png`:
+  `blender -b -P tools/render_readme.py -- <bottom.stl> <top.stl> docs/render_v7.png`.
 - `tools/plate.py`: slices both halves with the OrcaSlicer CLI using Bambu A1 presets fetched
   through an OrcaSlicer MCP server (`tools/mcp_call.py`). Optional; paths are local to my setup.
 
